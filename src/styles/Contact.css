@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.contactPage{
+    height: 85vh;
+    background-color: black;
+}
+.contactPage p{
+    color: white;
+    font-weight: 700;
+}
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    /* background-color: darkgoldenrod; */
+}
+.top_section{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkgray; */
+}
+
+.contact_me{
+    /* background-color: rgb(80, 124, 120); */
+    text-align: center;
+    font-size: 40px;
+}
+.contact_text{
+    /* background-color: tomato; */
+    width: 60%;
+    height: 20vh;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.social_links{
+    width: 15%;
+    /* background-color: rgb(41, 195, 14); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.middle{
+    /* background-color: darkcyan; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+}
+.up_middle{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: darkviolet; */
+    height: 10vh;
+    font-size: 25px;
+}
+.address_info p, .mail_info p{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myproject{
+    background-image: linear-gradient(to right, black, rgb(83, 13, 13), black);
+    display:flex;
+    align-items: center;
+    height: 50vh;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+    /* background-color: rgb(14, 146, 186); */
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.heading{
+    margin-top: 10px;
+}
+.heading p{
+    font-size: 25px;
+    padding: 0 15px;
+}
+.desc{
+    padding: 0 15px;
+    margin-top: 2vh;
+    max-height: 75%;
+    overflow-y: scroll;
+    font-weight: 600;
+    
+    /* background-color: rgb(212, 17, 131); */
+}
+.desc p{
+    font-family: 'Uchen', serif;
+    line-height: 23px;
+}
+.desc::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.head_desc_container{
+    width: 40%;
+    height: 40vh;
+    /* background-color: darksalmon; */
+}
+.head_desc_container p{
+    color:rgb(231, 226, 226);
+    font-weight: 200;
+}
+
+.project_images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: 100%;
+   margin-left: 60px;
+   /* padding-left: 47px;
+   padding-top: 31px; */
+   /* background-color: rgb(52, 10, 189);   */
+}
+.project__image{
+    border-radius: 10px;
+    height: 40vh;
+    transition: 450ms;
+    /* background-color: rgb(122, 233, 137); */
+     
+}
+.project__image:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.left, .right
+{
+    cursor: pointer;
+    padding: 5px;
+   
+}

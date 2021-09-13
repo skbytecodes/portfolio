@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about_container{
+    background-color:black;
+    height: 85vh;
+    /* padding-top: 10vh; */
+}
+.about_me{
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    max-height: 85vh;
+   
+}
+.text{
+    /* background-color: yellow; */
+     color: white;
+     width: 50%;
+     line-height: 24px;
+     font-size: 15px;
+
+}.para{
+    font-family: sans-serif;
+}
+.para1, .para2{
+    /* background-color: coral; */
+    padding-bottom: 15px;
+}
